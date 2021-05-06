@@ -12,6 +12,16 @@ public class CreateStack
 			linkedList.push(56);
 			
 			System.out.println(linkedList);
+			System.out.printf("Top element is %d\n",linkedList.peek());
+			linkedList.pop();
+			System.out.println(linkedList);
+			System.out.printf("Top element is %d\n",linkedList.peek());
+			linkedList.pop();
+			System.out.println(linkedList);
+			System.out.printf("Top element is %d\n",linkedList.peek());
+			linkedList.pop();
+			System.out.println(linkedList);
+			
 		}
 	}
 
